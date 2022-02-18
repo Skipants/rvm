@@ -25,5 +25,5 @@ action :install do
     only_if 'which gpg2 || which gpg'
   end
 
-  rvm_installation('root')
+  rvm_ruby
 end
